@@ -1,0 +1,2 @@
+- name: put /etc/cron.d/apt-autoremove
+  template: src=apt-autoremove dest=/etc/cron.d/apt-autoremove
